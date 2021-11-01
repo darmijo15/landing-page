@@ -1,0 +1,37 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  background-color: #fff;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  gap: 20px;
+}
+
+.header-image {
+  background-color: #ddd;
+  display: flex;
+  height: 200px;
+  width: 350px;
+}
+
+.header-logo {
+  font-size: 24px;
+  color: #000;
+}
+
+.header-text {
+  font-size: 48px;
+  font-weight: 800;
+  color: #000;
+}
+
+.header-links,
+.header-subtext {
+  font-size: 18px;
+  color: #000;
+}
