@@ -1,7 +1,7 @@
 .header {
   display: flex;
   justify-content: space-around;
-  background-color: #fff;
+  background-color: #1f2937;
 }
 
 ul {
@@ -21,7 +21,7 @@ ul {
 
 .header-logo {
   font-size: 24px;
-  color: #000;
+  color: #fff;
 }
 
 .header-text {
@@ -34,4 +34,8 @@ ul {
 .header-subtext {
   font-size: 18px;
   color: #000;
+}
+
+.test-run {
+  display: flex;
 }
