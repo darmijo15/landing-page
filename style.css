@@ -18,8 +18,20 @@ ul {
   gap: 20px;
 }
 
+a:link,
+a:visited {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #3882f6;
+}
+
 .header-logo {
   font-size: 24px;
+  font-weight: bold;
   color: #fff;
 }
 
@@ -64,4 +76,42 @@ button {
   background-color: #ddd;
   height: 200px;
   width: 450px;
+}
+
+.info {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+.info-header {
+  font-size: 28px;
+  font-weight: bold;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.info-image {
+  height: 150px;
+  width: 150px;
+  border: solid #3882f6 3px;
+  border-radius: 10px;
+  margin-bottom: 6px;
+}
+
+.info-container {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.info-card {
+  width: 155px;
+  text-align: center;
+  color: #666;
+}
+
+.quote {
+  border: solid red 2px;
 }
