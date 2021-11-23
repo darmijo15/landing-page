@@ -31,8 +31,7 @@ a:hover {
 
 .header-logo {
   font-size: 24px;
-  font-weight: bold;
-  color: #fff;
+  color: #f9faf8;
 }
 
 .main {
@@ -50,13 +49,13 @@ a:hover {
 .main-text {
   font-size: 48px;
   font-weight: 800;
-  color: #fff;
+  color: #f9faf8;
 }
 
 .header-links,
 .main-subtext {
   font-size: 18px;
-  color: #fff;
+  color: #e5e7eb;
 }
 
 button {
@@ -86,8 +85,8 @@ button {
 }
 
 .info-header {
-  font-size: 28px;
-  font-weight: bold;
+  font-size: 36px;
+  font-weight: 800;
   margin-top: 40px;
   margin-bottom: 40px;
 }
@@ -113,5 +112,25 @@ button {
 }
 
 .quote {
-  border: solid red 2px;
+  display: flex;
+  flex-flow: column wrap;
+  align-content: center;
+  background-color: #e5e7eb;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+  width: 830px;
+  margin-top: 100px;
+}
+
+.quote-subtext {
+  width: 790px;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 100px;
 }
